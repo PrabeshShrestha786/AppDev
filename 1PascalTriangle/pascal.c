@@ -12,20 +12,6 @@ void pascal_triangle(int rows)
 	{
 		gotoXY(i + 2, 40 - i * 2);
 		setFGcolor(RED + i % 7);
-		/*
-		 if(color>CYAN)
-		{
-			color = RED;
-			setFGcolor(color);
-		}
-		else
-		{
-			setFGcolor(color);
-		}
-		*/
-		
-
-
 		
 		for (k = 0; k <= i; k++)
 		{
