@@ -4,9 +4,13 @@ void pascal_triangle(int rows)
 {
 	int i, k;
 	//int color = RED;
+	gotoXY(1, 35);
+	setBGcolor(CYAN);
+	printf("--Pascal Triangle--");
+	resetColors();
 	for (i = 0; i < rows; i++)
 	{
-		gotoXY(i + 1, 40 - i * 2);
+		gotoXY(i + 2, 40 - i * 2);
 		setFGcolor(RED + i % 7);
 		/*
 		 if(color>CYAN)

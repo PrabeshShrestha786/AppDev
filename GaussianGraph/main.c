@@ -29,6 +29,24 @@ int main(void) {
 	sd = sqrt(temp);
 
 	//sorting the data
+	for (int i = 0; i < LEN; i++)
+	{
+		for (int j = i + 1; j < LEN; j++)
+		{
+			if (data[i] > data[j])
+			{
+				temp = data[i];
+				data[i] = data[j];
+				data[j] = temp;
+			}
+		}
+	}
+	printf("#######\n");
+	for (int i = 0; i < LEN; i++)
+	{
+		printf("%f ", data[i]);
+	}
+	printf("#######\n");
 
 	//calculating function of data
 

@@ -7,3 +7,4 @@ void setFGcolor(int);
 void clearScreen(void);
 void gotoXY(int row, int col);
 void resetColors(void);
+void setBGcolor(int colorcode);
