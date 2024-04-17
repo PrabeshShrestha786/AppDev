@@ -62,11 +62,12 @@ int main(void) {
 		fn[i] = temp;
 	}
 
-
-
-
-	
-	
+	printf("#######\n");
+	for (int i = 0; i < LEN; i++)
+	{
+		printf("%f ", fn[i]);
+	}
+	printf("#######\n");
 
 	return 0;
 }
