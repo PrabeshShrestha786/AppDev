@@ -27,4 +27,17 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="U:\public_html\AppDev\echo.php">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="U:\public_html\AppDev\appdev24gb.html">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="U:\public_html\AppDev\mydata.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
